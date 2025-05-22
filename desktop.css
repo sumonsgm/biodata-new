@@ -1,0 +1,92 @@
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.32%;}
+.col-5 {width: 41.65%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.31%;}
+.col-8 {width: 66.64%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.30%;}
+.col-11 {width: 91.63%;}
+.col-12 {width: 100%;}
+
+
+/* header starts here */
+
+.portfolio-image{
+    text-align: left;
+}
+
+.portfolio-navbar{
+    
+}
+   .portfolio-navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+
+    .portfolio-navbar li{
+        padding: 10px;
+        margin: 0 15px;
+        margin-top: 20px;
+        background-color: transparent;
+        
+        }
+
+    /* header ends here */
+
+    /* about starts here */
+    .top-weather{
+        width: 150px;
+        transition: width 2s, transform 2s;
+        }
+        
+        .top-weather:hover{
+        width: 200px;
+            }
+        
+            .bottom-weather{
+                width: 150px;
+                transition: width 2s, transform 2s;
+                }
+                
+                .bottom-weather:hover{
+                width: 200px;
+                    }
+
+                    .about-desc p{
+                        width: 80%;
+                        text-align: center;
+                        }
+
+        /* about ends here */
+
+        /* personal info starts here */
+        .details p,a{
+            text-align: left;
+            
+        }
+
+        #personal-info img{
+            
+            width: 300px;
+            height: 320px;
+            border: 2px solid white;
+           
+        }
+        /* personal info ends here */
+
+        /* footer starts here */
+        .menu-container{
+         text-align: left;
+        }
+
+        .menu-container ul li{
+            display: inline;
+        }
+
+        /* footer ends here */
